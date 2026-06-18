@@ -77,7 +77,7 @@
         }
       },
       "_id": "bliXqG7GxW6jorT0",
-      "_key": "!items!bliXqG7GxW6jorT0"
+      "_key": "!actors.items!qFr4K8qKvZa6COR2.bliXqG7GxW6jorT0"
     },
     {
       "name": "Spellcasting",
@@ -88,7 +88,7 @@
         }
       },
       "_id": "TU359E1xVjqVBwvc",
-      "_key": "!items!TU359E1xVjqVBwvc"
+      "_key": "!actors.items!qFr4K8qKvZa6COR2.TU359E1xVjqVBwvc"
     },
     {
       "name": "Multiattack",
@@ -99,7 +99,7 @@
         }
       },
       "_id": "m4tU7zlp3JQGjePc",
-      "_key": "!items!m4tU7zlp3JQGjePc"
+      "_key": "!actors.items!qFr4K8qKvZa6COR2.m4tU7zlp3JQGjePc"
     },
     {
       "name": "Dagger",
@@ -124,7 +124,7 @@
         }
       },
       "_id": "CjmK9p7KE7UyHixL",
-      "_key": "!items!CjmK9p7KE7UyHixL"
+      "_key": "!actors.items!qFr4K8qKvZa6COR2.CjmK9p7KE7UyHixL"
     },
     {
       "name": "Hellish Rebuke (Racial)",
@@ -135,7 +135,7 @@
         }
       },
       "_id": "P9YR3iu8FhDzRLwv",
-      "_key": "!items!P9YR3iu8FhDzRLwv"
+      "_key": "!actors.items!qFr4K8qKvZa6COR2.P9YR3iu8FhDzRLwv"
     }
   ],
   "_id": "qFr4K8qKvZa6COR2",
