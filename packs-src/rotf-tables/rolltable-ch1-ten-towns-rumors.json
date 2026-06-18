@@ -1,0 +1,162 @@
+{
+  "_id": "RotFCh1TenTownRumors",
+  "_key": "!tables!RotFCh1TenTownRumors",
+  "name": "Chapter 1: Ten-Towns Rumors",
+  "description": "<p>Roll 1d10 when characters complete a town's quest and need direction to the next. Reroll if the characters have already completed that quest. Source: <em>Rime of the Frostmaiden</em> p. 18.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "results": [
+    {
+      "_id": "RotFCh1TenTownRumorsR001",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR001",
+      "type": "text",
+      "text": "In Bremen, fishers are being terrorized by a monster that lives in Maer Dualdon. Strange that none of the other towns on that lake have been harangued by the monster.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR002",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR002",
+      "type": "text",
+      "text": "In Bryn Shander, some dwarves will pay good money to anyone who can find a lost shipment for them.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR003",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR003",
+      "type": "text",
+      "text": "In Caer-Dineval, no one has seen the town speaker for a long time. Locals say Speaker Crannoc has fallen ill, but sinister figures have been seen entering and leaving the castle at odd hours.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR004",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR004",
+      "type": "text",
+      "text": "In Caer-Konig, local establishments are beset by vandals and thieves that skulk about unseen. The town speaker, a dragonborn named Trovus, could really use some help catching the interlopers.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR005",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR005",
+      "type": "text",
+      "text": "In Dougan's Hole, people live in fear of winter wolves that haunt the outskirts of the town. As big as horses they are, and smarter than normal wolves.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR006",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR006",
+      "type": "text",
+      "text": "In Easthaven, they caught an evil wizard who killed some adventurers. The town militia plans to burn the wizard at the stake. I hear the captain of the guard is looking for adventurers to help with another task that may or may not be related.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR007",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR007",
+      "type": "text",
+      "text": "In Good Mead, the town speaker was recently killed by a nine-foot-tall giant. Rumor has it the giant stole a shipment of honey mead, without which a handful of taverns in Ten-Towns might go dry!",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR008",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR008",
+      "type": "text",
+      "text": "In Lonelywood, beware the dreaded white moose! It attacks loggers and trappers on sight, and the town's best hunters can't seem to catch or kill the beast. They could probably use some help.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR009",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR009",
+      "type": "text",
+      "text": "In Targos, a band of adventurers is planning an expedition up the side of Kelvin's Cairn, hoping to find Oyaminartok, a goliath lycanthrope who can transform into a polar bear. If you hurry, you might be able to join the expedition!",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1TenTownRumorsR010",
+      "_key": "!tables.results!RotFCh1TenTownRumors.RotFCh1TenTownRumorsR010",
+      "type": "text",
+      "text": "In Termalaine, Speaker Masthew has closed one of the town's lucrative gem mines. Apparently, a gang of kobolds crept into the mine and endangered some miners. Anyone who clears out the mine can expect to be well compensated.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {}
+    }
+  ]
+}
