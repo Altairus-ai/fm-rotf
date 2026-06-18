@@ -95,7 +95,7 @@
         }
       },
       "_id": "Yz4fkQfwcxFXZw62",
-      "_key": "!items!Yz4fkQfwcxFXZw62"
+      "_key": "!actors.items!lonelywoodbanshee1.Yz4fkQfwcxFXZw62"
     },
     {
       "name": "Incorporeal Movement",
@@ -106,7 +106,7 @@
         }
       },
       "_id": "cl9Igp2X90APZ2ut",
-      "_key": "!items!cl9Igp2X90APZ2ut"
+      "_key": "!actors.items!lonelywoodbanshee1.cl9Igp2X90APZ2ut"
     },
     {
       "name": "Corrupting Touch",
@@ -131,7 +131,7 @@
         }
       },
       "_id": "tXL1yMLegmZjGia7",
-      "_key": "!items!tXL1yMLegmZjGia7"
+      "_key": "!actors.items!lonelywoodbanshee1.tXL1yMLegmZjGia7"
     },
     {
       "name": "Spectral Longbow",
@@ -157,7 +157,7 @@
         }
       },
       "_id": "2U0Fq0HR6UdcBifM",
-      "_key": "!items!2U0Fq0HR6UdcBifM"
+      "_key": "!actors.items!lonelywoodbanshee1.2U0Fq0HR6UdcBifM"
     },
     {
       "name": "Horrifying Visage",
@@ -168,7 +168,7 @@
         }
       },
       "_id": "Bfvyy3gHeUYB8Ben",
-      "_key": "!items!Bfvyy3gHeUYB8Ben"
+      "_key": "!actors.items!lonelywoodbanshee1.Bfvyy3gHeUYB8Ben"
     },
     {
       "name": "Wail (Recharges after a Short or Long Rest)",
@@ -179,7 +179,7 @@
         }
       },
       "_id": "5bUEGAL5t5T5f3nZ",
-      "_key": "!items!5bUEGAL5t5T5f3nZ"
+      "_key": "!actors.items!lonelywoodbanshee1.5bUEGAL5t5T5f3nZ"
     }
   ],
   "flags": {
