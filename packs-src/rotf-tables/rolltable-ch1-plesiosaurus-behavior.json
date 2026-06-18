@@ -1,0 +1,92 @@
+{
+  "_id": "RotFCh1PlesiosBehavior",
+  "_key": "!tables!RotFCh1PlesiosBehavior",
+  "name": "Chapter 1: Plesiosaurus Behavior",
+  "description": "<p>Roll 1d6 when the awakened plesiosaurus (Bitey) makes its presence known during the Bremen \"Lake Monster\" quest. After behaving as described, the plesiosaurus departs unless the characters hold its attention. Source: <em>Rime of the Frostmaiden</em> p. 35.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "results": [
+    {
+      "_id": "RotFCh1PlesiosBehaviorR001",
+      "_key": "!tables.results!RotFCh1PlesiosBehavior.RotFCh1PlesiosBehaviorR001",
+      "type": "text",
+      "text": "The plesiosaurus breaches the water with its fins and splashes water into nearby boats. It swims to the bottom of the lake if attacked.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1PlesiosBehaviorR002",
+      "_key": "!tables.results!RotFCh1PlesiosBehavior.RotFCh1PlesiosBehaviorR002",
+      "type": "text",
+      "text": "The plesiosaurus rams a boat from beneath (randomly determine which if multiple). The boat takes 3d6 + 4 bludgeoning damage, and any character standing in the boat must succeed on a DC 12 Dexterity saving throw or fall prone. A character who fails by 5 or more is knocked overboard into the frigid water.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1PlesiosBehaviorR003",
+      "_key": "!tables.results!RotFCh1PlesiosBehavior.RotFCh1PlesiosBehaviorR003",
+      "type": "text",
+      "text": "The plesiosaurus surfaces 10 feet away from a boat and takes a bite out of it, using its 10-foot reach (randomly determine which boat if multiple). The boat takes 3d6 + 4 piercing damage.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1PlesiosBehaviorR004",
+      "_key": "!tables.results!RotFCh1PlesiosBehavior.RotFCh1PlesiosBehaviorR004",
+      "type": "text",
+      "text": "The plesiosaurus tries to capsize a boat (randomly determine which if multiple). Characters in the boat make a DC 12 Strength (Athletics) group check. On a failure, the boat capsizes and every creature in it falls into the frigid water.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "RotFCh1PlesiosBehaviorR005",
+      "_key": "!tables.results!RotFCh1PlesiosBehavior.RotFCh1PlesiosBehaviorR005",
+      "type": "text",
+      "text": "The plesiosaurus leaves without so much as a hello.",
+      "img": "icons/dice/d20black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {}
+    }
+  ]
+}
