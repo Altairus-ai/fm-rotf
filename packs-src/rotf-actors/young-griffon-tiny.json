@@ -71,7 +71,7 @@
         }
       },
       "_id": "g9bCRMnGPC8KDk9o",
-      "_key": "!items!g9bCRMnGPC8KDk9o"
+      "_key": "!actors.items!younggriffontiny.g9bCRMnGPC8KDk9o"
     },
     {
       "name": "Multiattack",
@@ -82,7 +82,7 @@
         }
       },
       "_id": "YJBughSEDfoTC07C",
-      "_key": "!items!YJBughSEDfoTC07C"
+      "_key": "!actors.items!younggriffontiny.YJBughSEDfoTC07C"
     },
     {
       "name": "Beak",
@@ -107,7 +107,7 @@
         }
       },
       "_id": "UUHBelrMXhTNlnCQ",
-      "_key": "!items!UUHBelrMXhTNlnCQ"
+      "_key": "!actors.items!younggriffontiny.UUHBelrMXhTNlnCQ"
     },
     {
       "name": "Claws",
@@ -132,7 +132,7 @@
         }
       },
       "_id": "bNJEjW0aVEKNqQyo",
-      "_key": "!items!bNJEjW0aVEKNqQyo"
+      "_key": "!actors.items!younggriffontiny.bNJEjW0aVEKNqQyo"
     }
   ],
   "flags": {
