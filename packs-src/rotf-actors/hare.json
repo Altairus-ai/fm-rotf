@@ -1,0 +1,107 @@
+{
+  "name": "Hare",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Hare.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 17
+      },
+      "con": {
+        "value": 9
+      },
+      "int": {
+        "value": 2
+      },
+      "wis": {
+        "value": 11
+      },
+      "cha": {
+        "value": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13
+      },
+      "hp": {
+        "value": 1,
+        "max": 1,
+        "formula": "1d4-1"
+      },
+      "speed": {
+        "value": 20,
+        "burrow": 5
+      }
+    },
+    "details": {
+      "type": {
+        "value": "beast"
+      },
+      "alignment": "unaligned",
+      "cr": 0,
+      "source": "Rime of the Frostmaiden"
+    },
+    "traits": {
+      "senses": "passive Perception 12"
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Escape",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1
+        }
+      },
+      "_id": "AGrgGGLVmEmX27fU",
+      "_key": "!actors.items!AGrgGGLVmEmX27fU",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {
+    "rotf": {
+      "source": "Appendix C"
+    }
+  },
+  "prototypeToken": {
+    "texture": {
+      "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Hare.webp"
+    }
+  },
+  "_id": "WXA8FkGT6KEa1Ate",
+  "_key": "!actors!WXA8FkGT6KEa1Ate",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}

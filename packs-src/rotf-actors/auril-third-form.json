@@ -1,0 +1,392 @@
+{
+  "name": "Auril (Third Form)",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Auril (Third Form).webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 21
+      },
+      "int": {
+        "value": 24
+      },
+      "wis": {
+        "value": 26
+      },
+      "cha": {
+        "value": 28
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 19,
+        "calc": "flat",
+        "formula": "natural armor"
+      },
+      "hp": {
+        "value": 136,
+        "max": 136,
+        "formula": "16d6+80"
+      },
+      "speed": {
+        "value": 0,
+        "fly": 30,
+        "hover": true
+      }
+    },
+    "details": {
+      "type": {
+        "value": "elemental"
+      },
+      "alignment": "neutral evil",
+      "cr": 11,
+      "source": "Rime of the Frostmaiden"
+    },
+    "traits": {
+      "languages": {
+        "value": [
+          "all"
+        ],
+        "custom": "telepathy 1000 ft."
+      },
+      "di": {
+        "value": [
+          "cold",
+          "poison"
+        ]
+      },
+      "dv": {
+        "value": [
+          "thunder"
+        ]
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "stunned"
+        ]
+      },
+      "senses": "blindsight 120 ft., truesight 120 ft., passive Perception 26"
+    },
+    "saves": {
+      "con": {
+        "proficient": 1
+      },
+      "wis": {
+        "proficient": 1
+      }
+    },
+    "skills": {
+      "dec": {
+        "value": 2
+      },
+      "ins": {
+        "value": 2
+      },
+      "itm": {
+        "value": 2
+      },
+      "prc": {
+        "value": 2
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Divine Being",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril can't be surprised and can't be changed into another form against her will."
+        }
+      },
+      "_id": "XjnfUthaGNbtxtBm",
+      "_key": "!actors.items!XjnfUthaGNbtxtBm",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Divine Resurrection",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "When Auril drops to 0 hit points, her crystalline form shatters and her divine spark vanishes. She is dead until the next winter solstice, when she reappears at full health in a cold, remote location of her choosing."
+        }
+      },
+      "_id": "K0CEJcnowC8CCSIW",
+      "_key": "!actors.items!K0CEJcnowC8CCSIW",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Frigid Aura",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "So long as Auril has at least 1 hit point in this form, each creature within 10 feet of her takes 10 cold damage at the start of each of her turns."
+        }
+      },
+      "_id": "vxDUU8woAypwphlJ",
+      "_key": "!actors.items!vxDUU8woAypwphlJ",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Legendary Resistance (1/Day in This Form)",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "If Auril fails a saving throw, she can choose to succeed instead."
+        }
+      },
+      "_id": "Jjb13GnxuVBlRnoK",
+      "_key": "!actors.items!Jjb13GnxuVBlRnoK",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Magic Resistance",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril has advantage on saving throws against spells and other magical effects."
+        }
+      },
+      "_id": "6Dj39Vx2iLjFF8Xi",
+      "_key": "!actors.items!6Dj39Vx2iLjFF8Xi",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril uses Polar Ray twice."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_id": "CfMlIGO2u9czrXf2",
+      "_key": "!actors.items!CfMlIGO2u9czrXf2",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Polar Ray",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit: 14 (4d6) cold damage."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "cold"
+            ]
+          ]
+        }
+      },
+      "_id": "CpfeCiMhcb32BvQj",
+      "_key": "!actors.items!CpfeCiMhcb32BvQj",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Blizzard Veil",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril creates a magical blizzard in a 30-foot-radius sphere centered on herself. The area is heavily obscured and moves with Auril. Lasts until Auril drops to 0 hp, chooses to end it, or concentration is broken."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_id": "vRie7YYfJ25f9hlq",
+      "_key": "!actors.items!vRie7YYfJ25f9hlq",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Legendary Action: Polar Ray",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril uses Polar Ray."
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        }
+      },
+      "_id": "1hC1bDd8U7Wuu4qq",
+      "_key": "!actors.items!1hC1bDd8U7Wuu4qq",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Legendary Action: Intensify Aura",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril's Frigid Aura deals an extra 10 cold damage until the end of her next turn."
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 2
+        }
+      },
+      "_id": "Hrv9uzzJBYkKNwav",
+      "_key": "!actors.items!Hrv9uzzJBYkKNwav",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Legendary Action: Blinding Gleam",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Auril's form flares with blue light. Each creature that can see Auril within 10 feet must succeed on a DC 17 Wisdom saving throw or be blinded for 1 minute. The blinded creature can repeat the save at end of each turn."
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 2
+        }
+      },
+      "_id": "pnsJIxFLJpFDvIfN",
+      "_key": "!actors.items!pnsJIxFLJpFDvIfN",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {
+    "rotf": {
+      "source": "Appendix C",
+      "chapter": "boss"
+    }
+  },
+  "prototypeToken": {
+    "texture": {
+      "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/IDRotF/Auril%20(Third%20Form).webp"
+    }
+  },
+  "_id": "IANdhZfUxNO8J1lj",
+  "_key": "!actors!IANdhZfUxNO8J1lj",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}

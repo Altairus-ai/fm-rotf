@@ -1,0 +1,281 @@
+{
+  "_id": "AurilCultTempst001",
+  "_key": "!actors!AurilCultTempst001",
+  "name": "Tempest of Auril",
+  "type": "npc",
+  "img": "icons/magic/air/air-burst-spiral-blue-white.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 11
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 32,
+        "min": 0,
+        "max": 32,
+        "formula": "5d8+10"
+      },
+      "speed": {
+        "value": 30,
+        "units": "ft"
+      },
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Greeting: \"The frigid veil persists.\" | Response: \"All the world in winter's white.\" | Parting: \"May her blessing chill you.\"</em></p><p>Tempests have proved themselves by providing food and shelter to another member \u2014 a delicate balance given the tenets of isolation. They mark themselves with permanent tattoos or brands. Brutal enforcers who threaten anyone voicing disapproval of the Frostmaiden. Actively infiltrate the Zhentarim and Knights of the Black Sword.</p><p><strong>Renown 3 | CR 1/2</strong></p>"
+      },
+      "cr": 0.5,
+      "alignment": "any evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race"
+      },
+      "source": "The Creed of Auril (Samuel Dillon)"
+    },
+    "traits": {
+      "languages": {
+        "value": [
+          "common"
+        ]
+      },
+      "dr": {
+        "value": [
+          "cold"
+        ]
+      },
+      "size": "med"
+    },
+    "skills": {
+      "dec": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "TempestItem000001",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strikes-sword-steel-blue.webp",
+      "system": {
+        "description": {
+          "value": "The tempest makes two melee attacks."
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_key": "!actors.items!TempestItem000001",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "TempestItem000002",
+      "name": "Scimitar",
+      "type": "weapon",
+      "img": "icons/weapons/swords/scimitar-curved-gold.webp",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage."
+        },
+        "quantity": 1,
+        "equipped": true,
+        "weaponType": "martialM",
+        "damage": {
+          "parts": [
+            [
+              "1d6+2",
+              "slashing"
+            ]
+          ]
+        },
+        "actionType": "mwak",
+        "attackBonus": "2"
+      },
+      "_key": "!actors.items!TempestItem000002",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "TempestItem000003",
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+      "system": {
+        "description": {
+          "value": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
+        },
+        "quantity": 1,
+        "equipped": true,
+        "weaponType": "martialR",
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "piercing"
+            ]
+          ]
+        },
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        }
+      },
+      "_key": "!actors.items!TempestItem000003",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "TempestItem000004",
+      "name": "Cold Faith",
+      "type": "feat",
+      "img": "icons/magic/water/snowflake-ice-crystals-white.webp",
+      "system": {
+        "description": {
+          "value": "Resistance to cold damage and advantage on saves vs. charmed or frightened."
+        },
+        "type": {
+          "value": "monster"
+        }
+      },
+      "_key": "!actors.items!TempestItem000004",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "TempestItem000005",
+      "name": "Surge of Cruelty",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": {
+          "value": "Recharge short/long rest. Turn a non-critical hit into a critical hit."
+        },
+        "type": {
+          "value": "monster"
+        }
+      },
+      "_key": "!actors.items!TempestItem000005",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "TempestItem000006",
+      "name": "Endurance Everlasting",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "Recharge 5\u20136. Reaction: when the tempest takes damage, roll a d6 and subtract the result from the damage."
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "_key": "!actors.items!TempestItem000006",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}

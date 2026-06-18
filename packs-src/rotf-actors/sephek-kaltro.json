@@ -1,0 +1,175 @@
+{
+  "name": "Sephek Kaltro",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Sephek Kaltro.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 11
+      },
+      "wis": {
+        "value": 16
+      },
+      "cha": {
+        "value": 18
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 75,
+        "min": 0,
+        "max": 75,
+        "formula": "10d8+30"
+      },
+      "ac": {
+        "flat": 12
+      },
+      "movement": {
+        "walk": 30
+      }
+    },
+    "details": {
+      "type": {
+        "value": "undead"
+      },
+      "alignment": "Neutral Evil",
+      "cr": 3,
+      "source": "IDRotF",
+      "biography": {
+        "value": "Sephek Kaltro is a cold-blooded killer and bodyguard for the dwarf merchant Torrga Icevein. He kills Ten-Towners who cheat their way out of Auril's sacrificial lottery, doing the Frostmaiden's work. He is immune to cold and regenerates in freezing temperatures."
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "common"
+        ]
+      },
+      "di": {
+        "value": [
+          "cold"
+        ]
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened"
+        ]
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      },
+      "sur": {
+        "value": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Sephek can innately cast misty step up to three times per day, requiring no components. His innate spellcasting ability is Charisma."
+        }
+      },
+      "_id": "fiRU20XxRyBKJmXs",
+      "_key": "!items!fiRU20XxRyBKJmXs"
+    },
+    {
+      "name": "Cold Regeneration",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "If the temperature around him is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of Sephek's next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate."
+        }
+      },
+      "_id": "stMvYP9QPAgWiQvx",
+      "_key": "!items!stMvYP9QPAgWiQvx"
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Sephek attacks twice with a weapon."
+        }
+      },
+      "_id": "gX779I6yfDjz7Nok",
+      "_key": "!items!gX779I6yfDjz7Nok"
+    },
+    {
+      "name": "Ice Longsword",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 5 (2d4) cold damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [
+            [
+              "1d8+3",
+              "slashing"
+            ],
+            [
+              "2d4",
+              "cold"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "oUnjwMBhWvOkVZl4",
+      "_key": "!items!oUnjwMBhWvOkVZl4"
+    },
+    {
+      "name": "Ice Dagger",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage."
+        },
+        "actionType": "rwak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [
+            [
+              "1d4+3",
+              "piercing"
+            ],
+            [
+              "2d4",
+              "cold"
+            ]
+          ]
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        }
+      },
+      "_id": "0o5JzfpoIUt4D3UR",
+      "_key": "!items!0o5JzfpoIUt4D3UR"
+    }
+  ],
+  "_id": "Ud86VMBJMhOInAaB",
+  "_key": "!actors!Ud86VMBJMhOInAaB"
+}

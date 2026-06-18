@@ -1,0 +1,276 @@
+{
+  "_id": "AurilCultDrkHnd001",
+  "_key": "!actors!AurilCultDrkHnd001",
+  "name": "Darkhand of Auril",
+  "type": "npc",
+  "img": "icons/magic/unholy/strike-hand-black-explosion.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 18
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 13
+      },
+      "cha": {
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 65,
+        "min": 0,
+        "max": 65,
+        "formula": "10d8+20"
+      },
+      "speed": {
+        "value": 30,
+        "units": "ft"
+      },
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Greeting: \"The frigid veil persists.\" | Response: \"All the world in winter's white.\" | Parting: \"May her blessing chill you.\"</em></p><p>Darkhands recruit and train new members, ruling the rank-and-file with pitiless demeanor. They receive a ring of black ice engraved with Auril's symbol \u2014 a dark badge of authority. Each darkhand manages two tempests and oversees six to eight spites. Boon of Frost (+4 CON/STR) included in statblock.</p><p><strong>Renown 10 | CR 2</strong></p>"
+      },
+      "cr": 2,
+      "alignment": "any evil",
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race"
+      },
+      "source": "The Creed of Auril (Samuel Dillon)"
+    },
+    "traits": {
+      "languages": {
+        "value": [
+          "common"
+        ]
+      },
+      "dr": {
+        "value": [
+          "cold"
+        ]
+      },
+      "size": "med"
+    },
+    "skills": {
+      "dec": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "rel": {
+        "value": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "DarkhndItem000001",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/strikes-sword-steel-blue.webp",
+      "system": {
+        "description": {
+          "value": "The darkhand makes two melee attacks."
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000001",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "DarkhndItem000002",
+      "name": "Maul",
+      "type": "weapon",
+      "img": "icons/weapons/hammers/hammer-double-grey.webp",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage."
+        },
+        "quantity": 1,
+        "equipped": true,
+        "weaponType": "martialM",
+        "damage": {
+          "parts": [
+            [
+              "2d6+4",
+              "bludgeoning"
+            ]
+          ]
+        },
+        "actionType": "mwak",
+        "attackBonus": "3",
+        "properties": {
+          "two": true
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000002",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "DarkhndItem000003",
+      "name": "Black Ice Ring",
+      "type": "feat",
+      "img": "icons/equipment/finger/ring-band-black.webp",
+      "system": {
+        "description": {
+          "value": "Action. Touch the symbol of Auril on the ring while pointing at an ally within 10 ft. or at self. A sheen of black frost hardens on the target's skin \u2014 the next time the target takes bludgeoning, slashing, or piercing damage, that damage is reduced to 0 and the sheen is destroyed. Once per day."
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000003",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "DarkhndItem000004",
+      "name": "Cold Faith",
+      "type": "feat",
+      "img": "icons/magic/water/snowflake-ice-crystals-white.webp",
+      "system": {
+        "description": {
+          "value": "Resistance to cold damage and advantage on saves vs. charmed or frightened."
+        },
+        "type": {
+          "value": "monster"
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000004",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "DarkhndItem000005",
+      "name": "Surge of Cruelty",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": {
+          "value": "Recharge short/long rest. Turn a non-critical hit into a critical hit."
+        },
+        "type": {
+          "value": "monster"
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000005",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "_id": "DarkhndItem000006",
+      "name": "Endurance Everlasting",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "Recharge 5\u20136. Reaction: roll a d6 and subtract from damage taken."
+        },
+        "type": {
+          "value": "monster"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "_key": "!actors.items!DarkhndItem000006",
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}

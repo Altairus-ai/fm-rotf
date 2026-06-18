@@ -1,0 +1,183 @@
+{
+  "name": "Coldlight Walker",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Coldlight Walker.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 17
+      },
+      "int": {
+        "value": 8
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 8
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 82,
+        "min": 0,
+        "max": 82,
+        "formula": "11d8+33"
+      },
+      "ac": {
+        "flat": 13
+      },
+      "movement": {
+        "walk": 30
+      },
+      "senses": {
+        "darkvision": 60
+      }
+    },
+    "details": {
+      "type": {
+        "value": "undead"
+      },
+      "alignment": "Chaotic Evil",
+      "cr": 5,
+      "source": "IDRotF"
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": []
+      },
+      "di": {
+        "value": [
+          "cold"
+        ]
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ]
+      }
+    },
+    "saves": {
+      "int": {
+        "proficient": 1
+      },
+      "wis": {
+        "proficient": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Blinding Light",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a DC 14 Constitution saving throw or be blinded until the start of the walker's next turn."
+        }
+      },
+      "_id": "ma7wz7UBLFN5yCxX",
+      "_key": "!items!ma7wz7UBLFN5yCxX"
+    },
+    {
+      "name": "Icy Doom",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Any creature killed by the walker freezes for 9 days, during which time it can't be thawed, harmed by fire, animated, or raised from the dead."
+        }
+      },
+      "_id": "BVFrW2l6KqqOTLMl",
+      "_key": "!items!BVFrW2l6KqqOTLMl"
+    },
+    {
+      "name": "Unusual Nature",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The walker doesn't require air, food, drink, or sleep."
+        }
+      },
+      "_id": "GsHsrYOR4ooePqRe",
+      "_key": "!items!GsHsrYOR4ooePqRe"
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The walker makes two attacks."
+        }
+      },
+      "_id": "zVAiT7B3zLQzIkiU",
+      "_key": "!items!zVAiT7B3zLQzIkiU"
+    },
+    {
+      "name": "Slam",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 14 (4d6) cold damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [
+            [
+              "2d8+2",
+              "bludgeoning"
+            ],
+            [
+              "4d6",
+              "cold"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "GZXtg1HVj4BspBqU",
+      "_key": "!items!GZXtg1HVj4BspBqU"
+    },
+    {
+      "name": "Cold Ray",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit: 25 (4d10 + 3) cold damage."
+        },
+        "actionType": "rsak",
+        "attackBonus": "3",
+        "damage": {
+          "parts": [
+            [
+              "4d10+3",
+              "cold"
+            ]
+          ]
+        },
+        "range": {
+          "value": 60,
+          "units": "ft"
+        }
+      },
+      "_id": "Knt8PsKzJabygEMu",
+      "_key": "!items!Knt8PsKzJabygEMu"
+    }
+  ],
+  "_id": "0npY6lRhj031vaod",
+  "_key": "!actors!0npY6lRhj031vaod"
+}

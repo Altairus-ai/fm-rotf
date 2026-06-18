@@ -1,0 +1,115 @@
+{
+  "name": "Prisoner 237",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Prisoner 237.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 13
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 17
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 15
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 32,
+        "min": 0,
+        "max": 32,
+        "formula": "5d8+10"
+      },
+      "ac": {
+        "flat": 11
+      },
+      "movement": {
+        "walk": 30
+      }
+    },
+    "details": {
+      "type": {
+        "value": "humanoid",
+        "subtype": "human"
+      },
+      "alignment": "Lawful Evil",
+      "cr": 1,
+      "source": "IDRotF",
+      "biography": {
+        "value": "Vaelish Gant \u2014 a pompous abjuration wizard of the Arcane Brotherhood imprisoned in Easthaven. His cell has an antimagic field. He promises wealth and magic items to anyone who breaks him out and escorts him to Luskan."
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [
+          "common",
+          "draconic",
+          "infernal",
+          "orc"
+        ]
+      }
+    },
+    "skills": {
+      "arc": {
+        "value": 1
+      },
+      "dec": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Spellcasting",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "5th-level wizard (abjuration). Spell save DC 13, +5 to hit. Cantrips: light, message, prestidigitation, shocking grasp. 1st (4 slots): mage armor, shield, sleep. 2nd (3 slots): arcane lock, detect thoughts, suggestion. 3rd (2 slots): counterspell, lightning bolt. Note: currently without spellbook or material components while imprisoned."
+        }
+      },
+      "_id": "SCuJy0VxV1VvwmdA",
+      "_key": "!items!SCuJy0VxV1VvwmdA"
+    },
+    {
+      "name": "Shocking Grasp",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Spell Attack: +5 to hit (advantage if target wears metal armor), reach 5 ft., one creature. Hit: 9 (2d8) lightning damage, and target can't take reactions until start of its next turn."
+        },
+        "actionType": "msak",
+        "attackBonus": "5",
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "lightning"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "SsPl7hxYyl1GpIf5",
+      "_key": "!items!SsPl7hxYyl1GpIf5"
+    }
+  ],
+  "_id": "FPI8Mztw8ozvHLXS",
+  "_key": "!actors!FPI8Mztw8ozvHLXS"
+}

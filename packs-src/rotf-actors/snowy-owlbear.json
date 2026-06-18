@@ -1,0 +1,151 @@
+{
+  "name": "Snowy Owlbear",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Snowy Owlbear.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 17
+      },
+      "int": {
+        "value": 3
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 7
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 13,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 59,
+        "max": 59,
+        "formula": "7d10+21"
+      },
+      "speed": {
+        "value": 40,
+        "swim": 30
+      }
+    },
+    "details": {
+      "cr": 3,
+      "type": {
+        "value": "monstrosity"
+      },
+      "alignment": "unaligned",
+      "source": "Icewind Dale: Rime of the Frostmaiden"
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "senses": "darkvision 60 ft., passive Perception 13",
+      "languages": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Keen Sight and Smell",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell."
+        }
+      },
+      "_id": "xBNWWVyDhLwWQ1KN",
+      "_key": "!items!xBNWWVyDhLwWQ1KN"
+    },
+    {
+      "name": "Cold Acclimation",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The snowy owlbear has advantage on Constitution saving throws made to avoid exhaustion due to extreme cold."
+        }
+      },
+      "_id": "9bM61eCSntF60Zp9",
+      "_key": "!items!9bM61eCSntF60Zp9"
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The owlbear makes two attacks: one with its beak and one with its claws."
+        }
+      },
+      "_id": "gwJ9JiIavSHvNfpq",
+      "_key": "!items!gwJ9JiIavSHvNfpq"
+    },
+    {
+      "name": "Beak",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10 + 5) piercing damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": 7,
+        "damage": {
+          "parts": [
+            [
+              "1d10+5",
+              "piercing"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "cdm6Xv1xDERdzCeq",
+      "_key": "!items!cdm6Xv1xDERdzCeq"
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": 7,
+        "damage": {
+          "parts": [
+            [
+              "2d8+5",
+              "slashing"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "G1XdYbWB3NOTswpd",
+      "_key": "!items!G1XdYbWB3NOTswpd"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  },
+  "_id": "snowyowlbear001",
+  "_key": "!actors!snowyowlbear001"
+}

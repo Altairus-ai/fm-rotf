@@ -1,0 +1,145 @@
+{
+  "name": "Young Griffon (Medium)",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Young Griffon (Medium).webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 15
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 2
+      },
+      "wis": {
+        "value": 13
+      },
+      "cha": {
+        "value": 8
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 12,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 32,
+        "max": 32,
+        "formula": "5d8+15"
+      },
+      "speed": {
+        "value": 30,
+        "fly": 80
+      }
+    },
+    "details": {
+      "cr": 1,
+      "type": {
+        "value": "monstrosity",
+        "subtype": ""
+      },
+      "alignment": "unaligned",
+      "biography": {
+        "value": "<p>A griffon is a ferocious avian carnivore with the muscular body of a lion and the head, forelegs, and wings of an eagle.</p>"
+      },
+      "source": "Icewind Dale: Rime of the Frostmaiden, pg. 163"
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      }
+    },
+    "traits": {
+      "size": "med",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "languages": ""
+    }
+  },
+  "items": [
+    {
+      "name": "Keen Sight",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+        }
+      },
+      "_id": "nBgpDhlyBB8cUpSQ",
+      "_key": "!items!nBgpDhlyBB8cUpSQ"
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "The griffon makes two attacks: one with its beak and one with its claws."
+        }
+      },
+      "_id": "s6w0HpT5mT8alMkL",
+      "_key": "!items!s6w0HpT5mT8alMkL"
+    },
+    {
+      "name": "Beak",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1d6+1 piercing damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": 3,
+        "damage": {
+          "parts": [
+            [
+              "1d6+1",
+              "piercing"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "uDPC2dymbj0s50M3",
+      "_key": "!items!uDPC2dymbj0s50M3"
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2d4+1 slashing damage."
+        },
+        "actionType": "mwak",
+        "attackBonus": 3,
+        "damage": {
+          "parts": [
+            [
+              "2d4+1",
+              "slashing"
+            ]
+          ]
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        }
+      },
+      "_id": "iVwENGGHS5YTIoCB",
+      "_key": "!items!iVwENGGHS5YTIoCB"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  },
+  "_id": "younggriffonmedi",
+  "_key": "!actors!younggriffonmedi"
+}

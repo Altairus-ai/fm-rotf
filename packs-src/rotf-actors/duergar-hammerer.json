@@ -1,0 +1,220 @@
+{
+  "name": "Duergar Hammerer",
+  "type": "npc",
+  "img": "modules/rime-of-the-frostmaiden/assets/actors/Duergar Hammerer.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17
+      },
+      "dex": {
+        "value": 7
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 5
+      },
+      "wis": {
+        "value": 5
+      },
+      "cha": {
+        "value": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": "natural armor"
+      },
+      "hp": {
+        "value": 33,
+        "max": 33,
+        "formula": "6d8+6"
+      },
+      "speed": {
+        "value": 20
+      }
+    },
+    "details": {
+      "type": {
+        "value": "construct"
+      },
+      "alignment": "lawful evil",
+      "cr": 2,
+      "source": "Rime of the Frostmaiden"
+    },
+    "traits": {
+      "languages": {
+        "custom": "understands Dwarvish but can't speak"
+      },
+      "di": {
+        "value": [
+          "poison"
+        ]
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ]
+      },
+      "senses": "darkvision 60 ft., passive Perception 7"
+    }
+  },
+  "items": [
+    {
+      "name": "Engine of Pain",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Once per turn, attacker can target the duergar inside. Attacker has disadvantage. On hit, deals extra 5 (1d10) damage to hammerer, which can Multiattack as reaction."
+        }
+      },
+      "_id": "ejiMASVxAZ4AMPg3",
+      "_key": "!actors.items!ejiMASVxAZ4AMPg3",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Siege Monster",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Deals double damage to objects and structures."
+        }
+      },
+      "_id": "sD4XFl4CT1VyM6gz",
+      "_key": "!actors.items!sD4XFl4CT1VyM6gz",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "Makes two attacks: one with claw and one with hammer."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "_id": "nWq8RkaBuEl7Ms0y",
+      "_key": "!actors.items!nWq8RkaBuEl7Ms0y",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee: +5 to hit, reach 5 ft. Hit: 6 (1d6+3) bludgeoning damage."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "attackBonus": 5,
+        "damage": {
+          "parts": [
+            [
+              "1d6+3",
+              "bludgeoning"
+            ]
+          ]
+        }
+      },
+      "_id": "TzzgCYH0JciLnBhW",
+      "_key": "!actors.items!TzzgCYH0JciLnBhW",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "Melee: +5 to hit, reach 5 ft. Hit: 10 (2d6+3) bludgeoning damage."
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "attackBonus": 5,
+        "damage": {
+          "parts": [
+            [
+              "2d6+3",
+              "bludgeoning"
+            ]
+          ]
+        }
+      },
+      "_id": "N5bDeVffJQG90AQy",
+      "_key": "!actors.items!N5bDeVffJQG90AQy",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "coreVersion": "14.363",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.3"
+      }
+    }
+  ],
+  "flags": {
+    "rotf": {
+      "source": "Appendix C",
+      "chapter": "3"
+    }
+  },
+  "_id": "ctWw5KvZu4L3R8rZ",
+  "_key": "!actors!ctWw5KvZu4L3R8rZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  }
+}
