@@ -4,12 +4,24 @@
   "img": "modules/rime-of-the-frostmaiden/assets/images/art-01-003-crag-cat.webp",
   "system": {
     "abilities": {
-      "str": { "value": 16 },
-      "dex": { "value": 17 },
-      "con": { "value": 16 },
-      "int": { "value": 4 },
-      "wis": { "value": 14 },
-      "cha": { "value": 8 }
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 17
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 4
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 8
+      }
     },
     "attributes": {
       "ac": {
@@ -38,8 +50,12 @@
       "senses": "darkvision 60 ft., passive Perception 14"
     },
     "skills": {
-      "prc": { "value": 2 },
-      "ste": { "value": 2 }
+      "prc": {
+        "value": 2
+      },
+      "ste": {
+        "value": 2
+      }
     }
   },
   "items": [
@@ -52,9 +68,11 @@
         }
       },
       "_id": "CragCatFeat001AB",
-      "_key": "!actors.items!CragCatFeat001AB",
+      "_key": "!actors.items!CragCatActorROTF1.CragCatFeat001AB",
       "sort": 100,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -70,9 +88,11 @@
         }
       },
       "_id": "CragCatFeat002CD",
-      "_key": "!actors.items!CragCatFeat002CD",
+      "_key": "!actors.items!CragCatActorROTF1.CragCatFeat002CD",
       "sort": 200,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -88,9 +108,11 @@
         }
       },
       "_id": "CragCatFeat003EF",
-      "_key": "!actors.items!CragCatFeat003EF",
+      "_key": "!actors.items!CragCatActorROTF1.CragCatFeat003EF",
       "sort": 300,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -104,19 +126,32 @@
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage."
         },
-        "activation": { "type": "action", "cost": 1 },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
         "actionType": "mwak",
         "attackBonus": "5",
         "damage": {
-          "parts": [["1d10 + 3", "piercing"]]
+          "parts": [
+            [
+              "1d10 + 3",
+              "piercing"
+            ]
+          ]
         },
-        "range": { "value": 5, "units": "ft" },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "ability": "str"
       },
       "_id": "CragCatWeap001GH",
-      "_key": "!actors.items!CragCatWeap001GH",
+      "_key": "!actors.items!CragCatActorROTF1.CragCatWeap001GH",
       "sort": 400,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -130,19 +165,32 @@
         "description": {
           "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
         },
-        "activation": { "type": "action", "cost": 1 },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
         "actionType": "mwak",
         "attackBonus": "5",
         "damage": {
-          "parts": [["1d8 + 3", "slashing"]]
+          "parts": [
+            [
+              "1d8 + 3",
+              "slashing"
+            ]
+          ]
         },
-        "range": { "value": 5, "units": "ft" },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
         "ability": "str"
       },
       "_id": "CragCatWeap002IJ",
-      "_key": "!actors.items!CragCatWeap002IJ",
+      "_key": "!actors.items!CragCatActorROTF1.CragCatWeap002IJ",
       "sort": 500,
-      "ownership": { "default": 0 },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "coreVersion": "14.363",
         "systemId": "dnd5e",
@@ -164,7 +212,9 @@
   "_id": "CragCatActorROTF1",
   "_key": "!actors!CragCatActorROTF1",
   "sort": 0,
-  "ownership": { "default": 0 },
+  "ownership": {
+    "default": 0
+  },
   "_stats": {
     "coreVersion": "14.363",
     "systemId": "dnd5e",
