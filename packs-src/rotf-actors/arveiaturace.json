@@ -101,7 +101,7 @@
         }
       },
       "_id": "iPO2613KtpBOwr2G",
-      "_key": "!items!iPO2613KtpBOwr2G"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.iPO2613KtpBOwr2G"
     },
     {
       "name": "Legendary Resistance (3/Day)",
@@ -112,7 +112,7 @@
         }
       },
       "_id": "M6MADatiDUEEPjMb",
-      "_key": "!items!M6MADatiDUEEPjMb"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.M6MADatiDUEEPjMb"
     },
     {
       "name": "Multiattack",
@@ -123,7 +123,7 @@
         }
       },
       "_id": "fJ3440vd2N9fXnqK",
-      "_key": "!items!fJ3440vd2N9fXnqK"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.fJ3440vd2N9fXnqK"
     },
     {
       "name": "Bite",
@@ -152,7 +152,7 @@
         }
       },
       "_id": "xmJMwO8vluVVquUW",
-      "_key": "!items!xmJMwO8vluVVquUW"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.xmJMwO8vluVVquUW"
     },
     {
       "name": "Claw",
@@ -177,7 +177,7 @@
         }
       },
       "_id": "VyLMJSbX7oXJOv8E",
-      "_key": "!items!VyLMJSbX7oXJOv8E"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.VyLMJSbX7oXJOv8E"
     },
     {
       "name": "Cold Breath (Recharge 5-6)",
@@ -188,7 +188,7 @@
         }
       },
       "_id": "NNDmbprMvetWkejZ",
-      "_key": "!items!NNDmbprMvetWkejZ"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.NNDmbprMvetWkejZ"
     },
     {
       "name": "Frightful Presence",
@@ -199,7 +199,7 @@
         }
       },
       "_id": "1NvV2yYjI1gEchye",
-      "_key": "!items!1NvV2yYjI1gEchye"
+      "_key": "!actors.items!1ymZ9rGxMKFH6cks.1NvV2yYjI1gEchye"
     }
   ],
   "_id": "1ymZ9rGxMKFH6cks",
