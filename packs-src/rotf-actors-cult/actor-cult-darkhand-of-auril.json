@@ -97,7 +97,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!DarkhndItem000001",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000001",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -136,7 +136,7 @@
           "two": true
         }
       },
-      "_key": "!actors.items!DarkhndItem000002",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000002",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -166,7 +166,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!DarkhndItem000003",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000003",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -192,7 +192,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!DarkhndItem000004",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000004",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -218,7 +218,7 @@
           "value": "monster"
         }
       },
-      "_key": "!actors.items!DarkhndItem000005",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000005",
       "flags": {},
       "sort": 0,
       "ownership": {
@@ -248,7 +248,7 @@
           "cost": 1
         }
       },
-      "_key": "!actors.items!DarkhndItem000006",
+      "_key": "!actors.items!AurilCultDrkHnd001.DarkhndItem000006",
       "flags": {},
       "sort": 0,
       "ownership": {
