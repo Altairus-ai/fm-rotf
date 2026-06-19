@@ -79,7 +79,7 @@
   "_stats": {
     "coreVersion": "14.364",
     "systemId": "dnd5e",
-    "systemVersion": "5.0.3"
+    "systemVersion": "5.3.3"
   },
   "notes": [],
   "tokens": [],
@@ -88,5 +88,45 @@
   "regions": [],
   "drawings": [],
   "tiles": [],
-  "walls": []
+  "walls": [],
+  "levels": [
+    {
+      "_id": "BremenLevel00001",
+      "_key": "!scenes.levels!BremenTownSc01.BremenLevel00001",
+      "name": "Bremen",
+      "background": {
+        "color": "#000500",
+        "src": "modules/rotf/assets/images/map-1.1-bremen-player.webp",
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "foreground": {
+        "src": null,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "fog": {
+        "src": null
+      },
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0
+      },
+      "visibility": {
+        "levels": []
+      },
+      "sort": 0,
+      "flags": {}
+    }
+  ]
 }
