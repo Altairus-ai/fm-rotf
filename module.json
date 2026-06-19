@@ -76,9 +76,10 @@
       "name": "Rime of the Frostmaiden",
       "sorting": "m",
       "packs": [
-        "rotf-journals",
         "rotf-actors",
         "rotf-actors-cult",
+        "rotf-journals",
+        "rotf-scenes",
         "rotf-tables"
       ]
     }
