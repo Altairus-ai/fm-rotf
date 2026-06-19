@@ -1,0 +1,91 @@
+{
+  "_id": "BremenTownSc01",
+  "_key": "!scenes!BremenTownSc01",
+  "name": "Bremen",
+  "active": false,
+  "navigation": false,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "modules/rotf/assets/images/map-1.1-bremen-player.webp",
+    "tint": "#ffffff",
+    "alphaThreshold": 0.75,
+    "anchorX": 0.5,
+    "anchorY": 0.5,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "offsetX": 0,
+    "offsetY": 0
+  },
+  "width": 2208,
+  "height": 3000,
+  "padding": 0.25,
+  "initial": {
+    "x": 1104,
+    "y": 1500,
+    "scale": 0.7
+  },
+  "backgroundColor": "#000500",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 50,
+    "units": "ft"
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false,
+    "reset": false,
+    "mode": 0,
+    "overlay": ""
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLevelLock": false,
+    "globalLight": {
+      "enabled": true,
+      "bright": 0,
+      "color": "#ffffff",
+      "coloration": 1,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "weather": {
+      "effects": [
+        {
+          "type": "snow",
+          "intensity": 0.5
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.3"
+  },
+  "notes": [],
+  "tokens": [],
+  "lights": [],
+  "sounds": [],
+  "regions": [],
+  "drawings": [],
+  "tiles": [],
+  "walls": []
+}
