@@ -1,0 +1,114 @@
+{
+  "_id": "IcewindKobold0001",
+  "name": "Icewind Kobold",
+  "type": "npc",
+  "img": "modules/rotf/assets/images/token-icewind-kobold.webp",
+  "system": {
+    "abilities": {
+      "str": { "value": 7 },
+      "dex": { "value": 15 },
+      "con": { "value": 12 },
+      "int": { "value": 8 },
+      "wis": { "value": 8 },
+      "cha": { "value": 8 }
+    },
+    "attributes": {
+      "ac": { "flat": 14, "calc": "flat" },
+      "hp": { "value": 9, "min": 0, "max": 9, "formula": "2d6+2" },
+      "speed": { "value": "30 ft., climb 20 ft." },
+      "cr": 0.125,
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": { "value": "<p>Icewind kobolds are cold-weather variants of kobolds, adapted to the brutal climate of Icewind Dale. They serve as guides and valets for powerful figures like Vellynne Harpell.</p>" },
+      "alignment": "any",
+      "race": "",
+      "type": { "value": "humanoid", "subtype": "kobold", "swarm": "", "custom": "" },
+      "environment": "",
+      "cr": 0.125,
+      "spellLevel": 0,
+      "source": { "book": "Icewind Dale: Rime of the Frostmaiden", "page": "296" }
+    },
+    "skills": {
+      "per": { "value": 1 },
+      "ste": { "value": 1 },
+      "sur": { "value": 1 }
+    },
+    "traits": {
+      "size": "sm",
+      "di": { "value": [] },
+      "dr": { "value": [] },
+      "dv": { "value": [] },
+      "ci": { "value": [] },
+      "languages": { "value": ["common", "draconic"] },
+      "senses": "darkvision 60 ft."
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 }
+  },
+  "prototypeToken": {
+    "name": "Icewind Kobold",
+    "displayName": 0, "actorLink": false, "appendNumber": false, "prependAdjective": false,
+    "width": 1, "height": 1,
+    "texture": { "src": "modules/rotf/assets/images/token-icewind-kobold.webp", "anchorX": 0.5, "anchorY": 0.5, "fit": "contain", "scaleX": 1, "scaleY": 1, "tint": "#ffffff", "alphaThreshold": 0.75 },
+    "lockRotation": false, "rotation": 0, "alpha": 1, "disposition": -1, "displayBars": 0,
+    "bar1": { "attribute": "attributes.hp" }, "bar2": { "attribute": null },
+    "light": { "negative": false, "priority": 0, "alpha": 0.5, "angle": 360, "bright": 0, "color": null, "coloration": 1, "dim": 0, "attenuation": 0.5, "luminosity": 0.5, "saturation": 0, "contrast": 0, "shadows": 0, "animation": { "type": null, "speed": 5, "intensity": 5, "reverse": false }, "darkness": { "min": 0, "max": 1 } },
+    "sight": { "enabled": false, "range": 0, "angle": 360, "visionMode": "basic", "color": null, "attenuation": 0.1, "brightness": 0, "saturation": 0, "contrast": 0 },
+    "detectionModes": {}, "occludable": { "radius": 0 },
+    "ring": { "enabled": false, "colors": { "ring": null, "background": null }, "effects": 1, "subject": { "scale": 1, "texture": null } },
+    "flags": {}, "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "IKobTrait01PT",
+      "name": "Pack Tactics",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashing-large.webp",
+      "system": { "description": { "value": "<p>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } },
+      "sort": 100000, "_key": "!actors.items!IcewindKobold0001.IKobTrait01PT"
+    },
+    {
+      "_id": "IKobTrait02SS",
+      "name": "Sunlight Sensitivity",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-small-yellow.webp",
+      "system": { "description": { "value": "<p>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>", "chat": "" }, "type": { "value": "monster" }, "activation": { "type": "", "value": null, "condition": "" }, "uses": { "value": null, "max": "", "per": null, "recovery": "" } },
+      "sort": 150000, "_key": "!actors.items!IcewindKobold0001.IKobTrait02SS"
+    },
+    {
+      "_id": "IKobAction01DG",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-curved-black.webp",
+      "system": {
+        "description": { "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.</p>", "chat": "" },
+        "quantity": 1, "equipped": true, "proficient": true,
+        "type": { "value": "simpleM", "baseItem": "dagger" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "range": { "value": 20, "long": 60, "units": "ft" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "dex", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "4", "type": { "value": "melee", "classification": "weapon" } }, "damage": { "parts": [{ "number": 1, "denomination": 4, "bonus": "2", "types": ["piercing"] }] } } }
+      },
+      "sort": 200000, "_key": "!actors.items!IcewindKobold0001.IKobAction01DG"
+    },
+    {
+      "_id": "IKobAction02JV",
+      "name": "Javelin",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-silver.webp",
+      "system": {
+        "description": { "value": "<p>Melee or Ranged Weapon Attack: +0 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 1 (1d6-2) piercing damage.</p>", "chat": "" },
+        "quantity": 3, "equipped": true, "proficient": true,
+        "type": { "value": "simpleM", "baseItem": "javelin" },
+        "activation": { "type": "action", "value": 1, "condition": "" },
+        "range": { "value": 30, "long": 120, "units": "ft" },
+        "uses": { "value": null, "max": "", "per": null, "recovery": "" },
+        "activities": { "dnd5eactivity000": { "_id": "dnd5eactivity000", "type": "attack", "activation": { "type": "action", "value": 1, "condition": "", "override": false }, "attack": { "ability": "str", "bonus": "", "critical": { "threshold": null }, "flat": true, "flatBonus": "0", "type": { "value": "melee", "classification": "weapon" } }, "damage": { "parts": [{ "number": 1, "denomination": 6, "bonus": "-2", "types": ["piercing"] }] } } }
+      },
+      "sort": 300000, "_key": "!actors.items!IcewindKobold0001.IKobAction02JV"
+    }
+  ],
+  "effects": [], "flags": {},
+  "_stats": { "systemId": "dnd5e", "systemVersion": "5.3.3", "coreVersion": "14.364", "createdTime": null, "modifiedTime": null, "lastModifiedBy": null },
+  "_key": "!actors!IcewindKobold0001"
+}
