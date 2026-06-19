@@ -23,6 +23,7 @@
   "height": 3000,
   "padding": 0.25,
   "backgroundColor": "#000500",
+  "weather": "",
   "grid": {
     "type": 1,
     "size": 100,
@@ -34,9 +35,29 @@
     "units": "ft"
   },
   "tokenVision": false,
-  "fogExploration": false,
-  "globalLight": true,
-  "darkness": 0,
+  "fog": {
+    "exploration": false,
+    "overlay": ""
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
   "ownership": {
     "default": 0
   },
