@@ -13,7 +13,9 @@
     "minimum": "14",
     "verified": "14"
   },
-  "system": ["dnd5e"],
+  "system": [
+    "dnd5e"
+  ],
   "url": "https://github.com/Altairus-ai/fm-rotf",
   "manifest": "https://github.com/Altairus-ai/fm-rotf/releases/latest/download/module.json",
   "download": "https://github.com/Altairus-ai/fm-rotf/releases/latest/download/module.zip",
@@ -50,6 +52,13 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "rotf-scenes",
+      "label": "ROTF Scenes",
+      "path": "packs/rotf-scenes",
+      "type": "Scene",
+      "system": "dnd5e"
     },
     {
       "name": "rotf-tables",
